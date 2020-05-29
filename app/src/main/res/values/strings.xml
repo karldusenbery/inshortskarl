@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">inshortskarl</string>
     <string name="main_image">main image</string>
+    <string name="articleTitle">How the office could change after the COVID-19 pandemic</string>
+    <string name="sixtyWords">The pandemic has many of us working from home, and some wonder if people will continue to afterwards. Companies realize most of jobs don’t need expensive real estate. They can just set you up at home for much less money. Now that large companies have been forced to adopt all these technologies, it will be an option for more people.</string>
+    <string name="bottomTextbar">Taiwan reports no new COVID-19 cases for second time this week</string>
 </resources>
