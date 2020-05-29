@@ -20,4 +20,45 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bench_accounting_8d2k7a3wmkq_unsplash"
         android:contentDescription="@string/main_image" />
+
+    <TextView
+        android:id="@+id/textViewArticleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/articleTitle"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMainImage"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <TextView
+        android:id="@+id/textViewArticle60Words"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        android:text="@string/sixtyWords"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBottomBanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewArticleTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewBottomBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:background="#FC000000"
+        android:padding="16dp"
+        android:text="@string/bottomTextbar"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewArticle60Words" />
 </androidx.constraintlayout.widget.ConstraintLayout>
